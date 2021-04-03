@@ -1,0 +1,156 @@
+*{
+    margin: 0; /*To remove all the default spaces*/ 
+    padding: 0; /*To remove the spaces between element and content*/
+}
+
+ul{
+    list-style-type: none; /*To remove the dots*/
+}
+
+li{
+    display: inline-block; /*To write everything in a line*/
+    cursor: pointer;
+    line-height: 12px;
+}
+
+
+li:hover{
+    /*:hover= Only when we hover over an item it will work*/
+    border-bottom: 1px solid darkgray;
+    /*To give border under the list itmes*/
+}
+
+
+button{
+    height: 36PX;
+    width: 145PX;
+    border:white;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: 14px;
+    letter-spacing: 0.3px; /*To give space in-between the letters*/
+    color:gray;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    border: 1px solid gray;
+    color: rgb(17, 16, 16);
+    box-shadow: 0px 5px 5px rgb(92, 90, 90);
+    position: relative;
+    top: 3px;
+}
+
+button:active{
+    /*:active= This only works when we click on any element 
+    or button*/
+    top:0px;
+}
+
+
+/*In fixed if we change the screen size it will be 
+  adjusted automatically*/
+
+#naveRight{
+    display: inline-block; /*To write everything in a line*/
+    position: fixed; /*To make the positon Fixed.So that if we change 
+                     the screen size it'll be on the proper place*/
+    right: 30px;
+}
+
+#Nav{
+    margin-top: 22px;
+    margin-left: 24px;
+}
+
+#BImage{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    background-color: rgb(12, 104, 241);
+    color: white;
+    border-radius: 50%;
+    padding-left: 8px; /*The dspace between content & border*/
+    padding-top: 3px;
+    padding-bottom: 5px;
+    line-height: 22px;
+}
+
+#MainGoogle{
+    
+    text-align: center; /*To move the text under that
+                         ID to the center*/
+    position: relative; /*It changes the positons relatively*/
+    top: 100px;
+}
+
+
+#Google-h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-weight: lighter;
+   
+}
+
+#GInput{
+    height: 40px;
+    width: 550px;
+    border-radius: 20px;
+    position: relative;
+    top: 36px;
+    border:1px solid lightgray;
+    padding-left: 30px;
+    font-size: 20px;
+    outline: none;
+}
+
+#GInput:hover{
+    box-shadow: 0px 5px 6px rgb(212, 212, 212);
+}
+
+#GInput:focus{
+    box-shadow: 0px 5px 6px  rgb(212, 212, 212);
+    /*To stay focous or to not to change when we move the cursor*/
+}
+
+#but{
+    position: relative;
+    top: 65px;
+}
+
+
+
+#footer{
+    position: fixed;
+    font-size: 20px;
+    bottom: 0px;
+    background-color: rgb(247, 244, 244);
+    width: 100%;
+    
+}
+
+#footer-right-side{
+    position: fixed;
+    right: 26px;
+    bottom: 14px;
+}
+
+#ul-Folder{
+    margin-left: 24px;
+    margin-bottom: 14px;
+    color: rgb(77, 75, 75);
+    padding-top: 15px;
+}
+
+.separateNave{
+    margin-left: 15px;
+}
+.letters{
+    margin-left: -28px; /*Removing the space between the letters*/
+}
+
+.separate-footer-items{
+    margin-left: 24px;
+}
